@@ -1,0 +1,348 @@
+<?php  include('includes/header.php'); ?>
+    <main>
+
+        <!-- tg-breadcrumb-area-start -->
+        <div class="tg-breadcrumb-area tg-breadcrumb-spacing-5 fix p-relative z-index-1 include-bg" data-background="assets/img/breadcrumb/breadcrumb.jpg">
+            <div class="tg-hero-top-shadow"></div>
+            <div class="tg-breadcrumb-shadow"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tg-breadcrumb-content text-center">
+                            <h2 class="tg-breadcrumb-title mb-10 fs-40">Blog Details</h2>
+                            <div class="tg-breadcrumb-list-4">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><i class="fa-sharp fa-solid fa-angle-right"></i></li>
+                                    <li>Blogs</li>
+                                    <li><i class="fa-sharp fa-solid fa-angle-right"></i></li>
+                                    <li>Top 5 Secrets to Finding the Cheapest Airfares in 2025</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tg-hero-bottom-shape d-none d-md-block">
+                <span>
+                    <svg width="432" height="187" viewBox="0 0 432 187" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="line-1" opacity="0.4" d="M39.6042 428.345C4.41235 355.065 -24.3018 203.867 142.377 185.309C350.725 162.111 488.893 393.541 289.169 313.515C129.389 249.494 458.202 85.4772 642.58 11.4713" stroke="white" stroke-width="24" />
+                    </svg>
+                </span>
+            </div>
+            <div class="tg-hero-bottom-shape-2 d-none d-md-block">
+                <span>
+                    <svg width="154" height="243" viewBox="0 0 154 243" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="line-1" opacity="0.4" d="M144.616 328.905C116.117 300.508 62.5986 230.961 76.5162 179.949C93.9131 116.184 275.231 7.44494 -65.0181 12.8762" stroke="white" stroke-width="24" />
+                    </svg>
+                </span>
+            </div>
+        </div>
+        <!-- tg-breadcrumb-area-end -->
+
+        <!-- tg-blog-grid-area-start -->
+        <div class="tg-blog-grid-area pt-130 pb-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-8">
+                        <div class="tg-blog-details-wrap tg-blog-lg-spacing mr-50 mb-50">
+                            <div class="tg-blog-standard-item mb-35">
+                                <div class="tg-blog-standard-thumb mb-15">
+                                    <img class="w-100" src="assets/img/aeroplaneban.png" alt="blog">
+                                </div>
+                                <div class="tg-blog-standard-content">
+                                    <div class="tg-blog-standard-date mb-10">
+                                        <span>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.51089 15.2889C1.33312 15.2889 1.15534 15.2 1.06645 15.1111C0.977561 14.9334 0.888672 14.8445 0.888672 14.6667C0.888672 13.4222 1.24423 12.1778 1.86645 11.0222C2.48867 9.95558 3.46645 8.9778 4.53312 8.35558C4.08867 7.82225 3.73312 7.11114 3.55534 6.40003C3.46645 5.68892 3.46645 4.88892 3.64423 4.26669C3.82201 3.55558 4.26645 2.84447 4.71089 2.31114C5.24423 1.7778 5.86645 1.33336 6.48867 1.15558C7.02201 0.977805 7.55534 0.888916 8.08867 0.888916C8.26645 0.888916 8.53312 0.888916 8.71089 0.888916C9.42201 0.977805 10.1331 1.24447 10.7553 1.68892C11.3776 2.13336 11.822 2.66669 12.1776 3.28892C12.5331 3.91114 12.7109 4.62225 12.7109 5.42225C12.7109 6.48892 12.3553 7.55558 11.6442 8.35558C12.1776 8.71114 12.7109 9.06669 13.2442 9.51114C13.9553 10.2222 14.3998 10.9334 14.8442 11.8222C15.1998 12.7111 15.3776 13.6 15.3776 14.5778C15.3776 14.7556 15.2887 14.9334 15.1998 15.0222C15.1109 15.1111 14.9331 15.2 14.7553 15.2C14.6665 15.2 14.5776 15.2 14.4887 15.1111C14.3998 15.1111 14.3109 15.0222 14.3109 14.9334C14.222 14.8445 14.222 14.8445 14.1331 14.7556C14.1331 14.6667 14.0442 14.5778 14.0442 14.4889C14.0442 13.6889 13.8664 12.9778 13.5998 12.2667C13.3331 11.5556 12.8887 10.9334 12.2664 10.4C11.7331 9.95558 11.1998 9.51114 10.5776 9.24447C9.86645 9.68892 9.06645 9.95558 8.08867 9.95558C7.19978 9.95558 6.31089 9.68892 5.59978 9.24447C4.62201 9.68892 3.73312 10.4 3.11089 11.3778C2.48867 12.3556 2.13312 13.4222 2.13312 14.5778C2.13312 14.7556 2.04423 14.9334 1.95534 15.0222C1.86645 15.2 1.68867 15.2889 1.51089 15.2889ZM8.08867 2.22225C7.46645 2.22225 6.84423 2.40003 6.31089 2.75558C5.68867 3.11114 5.33312 3.64447 5.06645 4.1778C4.79978 4.80003 4.71089 5.42225 4.88867 6.13336C4.97756 6.75558 5.33312 7.37781 5.77756 7.82225C6.22201 8.26669 6.84423 8.62225 7.46645 8.71114C7.64423 8.71114 7.91089 8.80003 8.08867 8.80003C8.53312 8.80003 8.97756 8.71114 9.33312 8.53336C9.95534 8.26669 10.3998 7.91114 10.8442 7.28892C11.1998 6.75558 11.3776 6.13336 11.3776 5.51114C11.3776 4.62225 11.022 3.82225 10.3998 3.20003C9.77756 2.48892 8.97756 2.22225 8.08867 2.22225Z" fill="#560CE3" />
+                                            </svg>
+                                            by Admin
+                                        </span>
+                                        <span>
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.76501 0.777771V3.26668M4.23413 0.777771V3.26668M0.777344 5.75548H13.2218M2.16006 2.02211H11.8391C12.6027 2.02211 13.2218 2.57927 13.2218 3.26656V11.9778C13.2218 12.6651 12.6027 13.2222 11.8391 13.2222H2.16006C1.39641 13.2222 0.777344 12.6651 0.777344 11.9778V3.26656C0.777344 2.57927 1.39641 2.02211 2.16006 2.02211Z" stroke="#560CE3" stroke-width="0.977778" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            26th May, 2025
+                                        </span>
+                                        <span>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M7.99979 3.73329V7.99996L10.8442 9.42218M15.1109 8.00003C15.1109 11.9274 11.9271 15.1111 7.99978 15.1111C4.07242 15.1111 0.888672 11.9274 0.888672 8.00003C0.888672 4.07267 4.07242 0.888916 7.99978 0.888916C11.9271 0.888916 15.1109 4.07267 15.1109 8.00003Z" stroke="#560CE3" stroke-width="1.06667" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            2 mins Read
+                                        </span>
+                                    </div>
+                                    <h2 class="tg-blog-standard-title">Top 5 Secrets to Finding the Cheapest Airfares in 2025
+                                    </h2>
+                                    <p>Searching for affordable flight tickets can feel overwhelming with fluctuating prices and dozens of travel sites. At Air Routes Finder, we help travelers save big by unlocking the secrets to finding the best airfare deals. Whether you're planning a solo trip or a family vacation, here are 5 insider tips that can help you land the lowest fares in 2025 — without the stress.</p>
+                                </div>
+                            </div>
+                            <!-- <blockquote class="tg-blog-blockquote p-relative mb-25">
+                                <p>“ urabitur varius erros area rutrum consequat Mauris sollici area tudino 
+                                    electronic typesetting, remaining essentially dimentum luctus enim”</p>
+                                    <span class="tg-blog-blockquote-icon">
+                                        <svg width="38" height="32" viewBox="0 0 38 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M34.7762 27.416C32.1113 30.458 28.0789 32 22.7928 32L20.8934 32L20.8934 26.362L22.4206 26.04C25.0227 25.492 26.8329 24.414 27.8016 22.832C28.307 21.9797 28.5937 21.0039 28.6335 20L22.7928 20C22.2891 20 21.806 19.7893 21.4498 19.4142C21.0935 19.0391 20.8934 18.5304 20.8934 18L20.8934 4C20.8934 1.794 22.5972 2.39128e-06 24.6922 2.58489e-06L36.0887 3.63806e-06C36.5924 3.68462e-06 37.0755 0.210716 37.4317 0.585789C37.7879 0.960861 37.9881 1.46957 37.9881 2L37.9881 12L37.9824 17.838C37.9995 18.06 38.3603 23.32 34.7762 27.416ZM3.7988 6.54059e-07L15.1952 1.70724e-06C15.699 1.75379e-06 16.1821 0.210714 16.5383 0.585787C16.8945 0.960859 17.0946 1.46957 17.0946 2L17.0946 12L17.0889 17.838C17.106 18.06 17.4669 23.32 13.8827 27.416C11.2179 30.458 7.18544 32 1.8994 32L-3.8147e-06 32L-3.34842e-06 26.362L1.52712 26.04C4.1293 25.492 5.93943 24.414 6.90812 22.832C7.41357 21.9797 7.70024 21.0039 7.74007 20L1.8994 20C1.39565 20 0.912526 19.7893 0.556317 19.4142C0.200112 19.0391 -2.70074e-06 18.5304 -2.65687e-06 18L-1.49904e-06 4C-1.3166e-06 1.794 1.70376 4.6045e-07 3.7988 6.54059e-07Z" fill="#560CE3" />
+                                        </svg>
+                                    </span>
+                            </blockquote> -->
+                            <p class="tg-blog-para lh-28 mb-40">Traveling doesn’t have to break the bank. With smart planning, flexible choices, and the right platform, you can turn your dream vacation into reality without overspending. At Air Routes Finder, we help you unlock unbeatable fares and hidden routes to your favorite destinations.</p>
+                            <div class="tg-blog-video-list mb-25">
+                                <div class="row">
+                                    <div class="col-xl-5 col-lg-12 col-md-5">
+                                        <div class="tg-blog-details-video p-relative mb-30">
+                                            <img class="w-100" src="assets/img/airside.jpg" alt="video">
+                                            <!-- <div class="tg-tour-details-video-inner text-center">
+                                                <a class="tg-video-play popup-video tg-pulse-border" href="https://www.youtube.com/watch?v=sY2bdbsy3rg">
+                                                    <span class="p-relative z-index-11">
+                                                        <svg width="19" height="21" viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M17.3616 8.34455C19.0412 9.31425 19.0412 11.7385 17.3616 12.7082L4.13504 20.3445C2.45548 21.3142 0.356021 20.1021 0.356021 18.1627L0.356022 2.89C0.356022 0.950609 2.45548 -0.261512 4.13504 0.708185L17.3616 8.34455Z" fill="currentColor" />
+                                                        </svg>
+                                                    </span>
+                                                 </a>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-7 col-lg-12 col-md-7">
+                                        <div class="tg-blog-details-video-content ml-15 mb-30">
+                                            <h3>Tips For Building Future Travel Plans</h3>
+                                            <p class="tg-blog-para lh-28 mb-20">Plan your journeys with confidence using these essential travel strategies:</p>
+                                            <div class="tg-blog-details-video-list">
+                                                <ul>
+                                                    <li>
+                                                        <span><i class="fa-sharp fa-solid fa-check"></i></span>
+                                                        <p>Be Flexible with Dates & Airports</p>
+                                                    </li>
+                                                    <li>
+                                                        <span><i class="fa-sharp fa-solid fa-check"></i></span>
+                                                        <p>Book Early for Best Deals</p>
+                                                    </li>
+                                                    <li>
+                                                        <span><i class="fa-sharp fa-solid fa-check"></i></span>
+                                                        <p>Leverage Travel Alerts & Price Trackers</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- <p class="tg-blog-para lh-28">Seorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry tandard when an unknown printer took a galley.</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tg-blog-details-tag mb-40 d-flex flex-wrap justify-content-between align-items-center">
+                                <div class="tg-blog-sidebar-tag-list d-flex flex-wrap align-items-center">
+                                    <h5 class="tg-blog-sidebar-title mr-10">Tags:</h5>
+                                    <ul>
+                                        <li><a href="#">TravelTips</a></li>
+                                        <li><a href="#">CheapFlights</a></li>
+                                        <li><a href="#">FlightBooking</a></li>
+                                        <li><a href="#">FlexibleTravel</a></li>
+                                        <li><a href="#">AirRoutesFinder</a></li>
+                                        <li><a href="#">TravelHacks</a></li>
+                                        <li><a href="#">SaveOnFlights</a></li>
+                                        <li><a href="#">FlightDeals</a></li>
+                                        <li><a href="#">TravelPlanning</a></li>
+                                        <li><a href="#">TravelSmart</a></li>
+                                    </ul>
+                                </div>
+                                <!-- <div class="tg-blog-details-social mb-10">
+                                    <span>Share:</span>
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                </div> -->
+                            </div>
+                            <!-- <div class="tg-tour-about-cus-review-wrap tg-blog-details-review mb-25">
+                                <ul>
+                                    <li class="mb-40">
+                                        <div class="tg-tour-about-cus-review d-flex">
+                                            <div class="tg-tour-about-cus-review-thumb">
+                                                <img src="assets/img/blog/details/avatar.png" alt="avatar">
+                                            </div>
+                                            <div>
+                                                <div class="tg-tour-about-cus-name">
+                                                    <span>Author</span>
+                                                    <h6>Parker Willy</h6>
+                                                </div>
+                                                <p class="text-capitalize lh-28 mb-10">Finanappreciate your trust greatly Our clients choose dentace ducts because know we are the best area Awaitingare really.Seorem.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div> -->
+                            <!-- <div class="tg-tour-about-review-form tg-blog-details-review-form">
+                                <h4 class="tg-tour-about-title mb-10">Post a comment</h4>
+                                <p>Your email address will not be published. Required fields are marked *</p>
+                                <form action="#">
+                                    <div class="row gx-15">
+                                        <div class="col-lg-12">
+                                            <textarea class="textarea  mb-5" placeholder="Comment"></textarea>
+                                        </div>
+                                        <div class="col-lg-4 mb-15">
+                                            <input class="input" type="text" placeholder="Name">
+                                        </div>
+                                        <div class="col-lg-4 mb-15">
+                                            <input class="input" type="email" placeholder="Email">
+                                        </div>
+                                        <div class="col-lg-4 mb-15">
+                                            <input class="input" type="text" placeholder="Website">
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="review-checkbox d-flex align-items-center mb-25">
+                                                <input class="tg-checkbox" type="checkbox" id="australia">
+                                                <label for="australia" class="tg-label">Save my name, email, and website in this browser for the next time I comment.</label>
+                                            </div>
+                                            <button type="submit" class="tg-btn tg-btn-switch-animation">
+                                                <span class="d-flex align-items-center justify-content-center">
+                                                    <span class="btn-text">Submit Post</span>
+                                                    <span class="btn-icon ml-5">
+                                                         <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                             <path d="M1.0017 8.00001H19.9514M19.9514 8.00001L12.9766 1.02515M19.9514 8.00001L12.9766 14.9749" stroke="white" stroke-width="1.77778" stroke-linecap="round" stroke-linejoin="round" />
+                                                         </svg>
+                                                    </span>
+                                                    <span class="btn-icon ml-5">
+                                                         <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                             <path d="M1.0017 8.00001H19.9514M19.9514 8.00001L12.9766 1.02515M19.9514 8.00001L12.9766 14.9749" stroke="white" stroke-width="1.77778" stroke-linecap="round" stroke-linejoin="round" />
+                                                         </svg>
+                                                    </span>
+                                                </span> 
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4">
+                        <div class="tg-blog-sidebar top-sticky mb-50">
+                            <!-- <div class="tg-blog-sidebar-search tg-blog-sidebar-box mb-40">
+                                <h5 class="tg-blog-sidebar-title mb-15">Search</h5>
+                                <div class="tg-blog-sidebar-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Type here . . .">
+                                        <button>
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_497_1336)">
+                                                <path d="M17 17L13.5247 13.5247M15.681 8.3405C15.681 12.3945 12.3945 15.681 8.3405 15.681C4.28645 15.681 1 12.3945 1 8.3405C1 4.28645 4.28645 1 8.3405 1C12.3945 1 15.681 4.28645 15.681 8.3405Z" stroke="#560CE3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                                                </g>
+                                                <defs>
+                                                <clipPath id="clip0_497_1336">
+                                                    <rect width="18" height="18" fill="white" />
+                                                </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div> -->
+                            <div class="tg-blog-categories tg-blog-sidebar-box mb-40">
+                                <h5 class="tg-blog-sidebar-title mb-5">Airlines :</h5>
+                                <div class="tg-blog-categories-list">
+                                    <ul>
+                                        <li>
+                                            <span>Delta Airlines
+</span>
+                                            <!-- <span>(15)</span> -->
+                                        </li>
+                                        <li>
+                                            <span>American Airlines
+</span>
+                                            <!-- <span>(44)</span> -->
+                                        </li>
+                                        <li>
+                                            <span>United Airlines
+</span>
+                                            <!-- <span>(11)</span> -->
+                                        </li>
+                                        <li>
+                                            <span>Jetblue</span>
+                                            <!-- <span>(22)</span> -->
+                                        </li>
+                                        <li>
+                                            <span>Spirit Airlines</span>
+                                            <!-- <span>(15)</span> -->
+                                        </li>
+                                        <li>
+                                            <span>Air France KLM</span>
+                                            <!-- <span>(15)</span> -->
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tg-blog-post tg-blog-sidebar-box mb-40">
+                                <h5 class="tg-blog-sidebar-title mb-25">Recent Posts</h5>
+                                 <div class="tg-blog-post-item d-flex align-items-center mb-30">
+                                    <div class="tg-blog-post-thumb mr-15">
+                                        <img src="assets/img/myth1.jpg" alt="post">
+                                    </div>
+                                    <div class="tg-blog-post-content w-100">
+                                        <h4 class="tg-blog-post-title mb-5"><a href="top-5-myths-about-booking-cheap-flights.php">Top 5 Myths About Booking Cheap Flights — Busted!</a></h4>
+                                        <span class="tg-blog-post-date">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.76501 0.777832V3.26675M4.23413 0.777832V3.26675M0.777344 5.75554H13.2218M2.16006 2.02217H11.8391C12.6027 2.02217 13.2218 2.57933 13.2218 3.26662V11.9778C13.2218 12.6651 12.6027 13.2223 11.8391 13.2223H2.16006C1.39641 13.2223 0.777344 12.6651 0.777344 11.9778V3.26662C0.777344 2.57933 1.39641 2.02217 2.16006 2.02217Z" stroke="#560CE3" stroke-width="0.977778" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            5th June, 2025
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="tg-blog-post-item d-flex align-items-center mb-30">
+                                    <div class="tg-blog-post-thumb mr-15">
+                                        <img src="assets/img/hidden1.webp" alt="post">
+                                    </div>
+                                    <div class="tg-blog-post-content w-100">
+                                        <h4 class="tg-blog-post-title mb-5"><a href="unlock-hidden-travel-deals.php">Unlock Hidden Travel Deals: Insider Tips to Save Big on Flights</a></h4>
+                                        <span class="tg-blog-post-date">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.76501 0.777832V3.26675M4.23413 0.777832V3.26675M0.777344 5.75554H13.2218M2.16006 2.02217H11.8391C12.6027 2.02217 13.2218 2.57933 13.2218 3.26662V11.9778C13.2218 12.6651 12.6027 13.2223 11.8391 13.2223H2.16006C1.39641 13.2223 0.777344 12.6651 0.777344 11.9778V3.26662C0.777344 2.57933 1.39641 2.02217 2.16006 2.02217Z" stroke="#560CE3" stroke-width="0.977778" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            30th May, 2025
+                                        </span>
+                                    </div>
+                                </div>
+                               
+                             
+                            </div>
+                            <div class="tg-blog-ads p-relative mb-40">
+                                <img class="w-100" src="assets/img/sideimageall.jpg" alt="ads">
+                                <div class="tg-blog-ads-btn">
+                                    <a href="tour-details.html" class="tg-btn tg-btn-transparent tg-btn-switch-animation">
+                                        <span class="d-flex align-items-center justify-content-center">
+                                           <span class="btn-text">Book Now</span>
+                                           <span class="btn-icon ml-5">
+                                                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.00019 7.00005H16.16M16.16 7.00005L10.5801 1.42017M16.16 7.00005L10.5801 12.5799" stroke="#020615" stroke-width="1.42222" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                           </span>
+                                           <span class="btn-icon ml-5">
+                                                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.00019 7.00005H16.16M16.16 7.00005L10.5801 1.42017M16.16 7.00005L10.5801 12.5799" stroke="#020615" stroke-width="1.42222" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                           </span>
+                                       </span> 
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- <div class="tg-blog-sidebar-tag tg-blog-sidebar-box">
+                                <h5 class="tg-blog-sidebar-title mb-25">Tags</h5>
+                                <div class="tg-blog-sidebar-tag-list">
+                                    <ul>
+                                        <li><a href="#">City Tour</a></li>
+                                        <li><a href="#">Hiking</a></li>
+                                        <li><a href="#">News</a></li>
+                                        <li><a href="#">Camping</a></li>
+                                        <li><a href="#">Social Media</a></li>
+                                        <li><a href="#">Travel</a></li>
+                                        <li><a href="#">Traffic</a></li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tg-blog-grid-area-end -->
+
+    </main>
+    <!-- main-area-end -->
+<?php   include('includes/footer.php');  ?>

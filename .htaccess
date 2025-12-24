@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Force trailing slash for /es to match the folder
+RewriteRule ^es$ es/ [R=301,L]
+
+# Route /es to es/es.php
+RewriteRule ^es/?$ es/es.php [L]
+
+# Rewrite clean URLs under /es to their .php counterparts
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/es/$1.php -f
+RewriteRule ^es/([a-zA-Z0-9-_]+)$ es/$1.php [L]
